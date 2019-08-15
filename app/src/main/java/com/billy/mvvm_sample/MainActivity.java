@@ -10,6 +10,7 @@ import android.widget.Toast;
 
 import com.billy.mvvm_sample.activities.AnimationActivity;
 import com.billy.mvvm_sample.activities.ExpressionActivity;
+import com.billy.mvvm_sample.activities.InclueViewActivity;
 import com.billy.mvvm_sample.activities.LambdaActivity;
 import com.billy.mvvm_sample.activities.ListActivity;
 import com.billy.mvvm_sample.activities.SimpleActivity;
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(new Intent(MainActivity.this, ExpressionActivity.class));
             else if(p.equals("Animation"))
                 startActivity(new Intent(MainActivity.this, AnimationActivity.class));
+            else if(p.equals("InlineView"))
+                startActivity(new Intent(MainActivity.this, InclueViewActivity.class));
         }
 
         public void onClickSimpleDemo(View view) {

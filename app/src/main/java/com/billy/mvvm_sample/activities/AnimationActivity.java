@@ -24,7 +24,7 @@ public class AnimationActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         bindig = DataBindingUtil.setContentView(this, R.layout.activity_animation);
-        bindig.addOnRebindCallhaltedback(new OnRebindCallback() {
+        bindig.addOnRebindCallback(new OnRebindCallback() {
             @Override
             public boolean onPreBind(ViewDataBinding binding) {
                 ViewGroup view = (ViewGroup)binding.getRoot();

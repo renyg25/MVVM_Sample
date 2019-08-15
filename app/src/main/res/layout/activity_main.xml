@@ -68,6 +68,13 @@
             android:onClick="@{viewModel::onClick}"
             android:text="@string/change_component"/>
 
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:tag="InlineView"
+            android:onClick="@{viewModel::onClick}"
+            android:text="@{@string/demo_inline_view}"
+            android:textColor="@{@color/textColorDay}"/>
     </LinearLayout>
 
 </layout>
